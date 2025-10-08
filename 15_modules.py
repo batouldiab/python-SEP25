@@ -58,3 +58,12 @@ print(pi)
 
 print(math.ceil(1.4))
 print(math.floor(1.4))
+
+# importing installed library
+# to install library, run: pip install camelcase
+# to upgrade library, run: pip install --upgrade camelcase
+# to uninstall library, run: pip uninstall camelcase
+import camelcase
+c = camelcase.CamelCase()
+txt = 'this is any text.'
+print(c.hump(txt))
